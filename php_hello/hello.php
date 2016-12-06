@@ -4,7 +4,7 @@
  </head>
  <body>
  <?php echo '<p>Hello World</p>'; ?> 
- <p><a href="../">トップページ</a></p>
+ <p><a href="../">繝医ャ繝励�壹�ｼ繧ｸ</a></p>
 
  </body>
 </html>
