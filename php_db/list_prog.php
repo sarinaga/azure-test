@@ -16,6 +16,7 @@ function getUserList(){
 	    print("Error connecting to SQL Server.");
     	die(print_r($e));
 	}
+	return "ok";
 
 	// userテーブル全取得
 	try {
