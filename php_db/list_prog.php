@@ -2,11 +2,11 @@
 
 
 /**
- * ƒ†[ƒU[ƒŠƒXƒgˆê——Žæ“¾
+ * ãƒ¦ãƒ¼ã‚¶ãƒ¼ãƒªã‚¹ãƒˆä¸€è¦§å–å¾—
  */
-function getUserList{
+function getUserList(){
 
-	// Azure SQL serverÚ‘±
+	// Azure SQL serveræŽ¥ç¶š
 	try {
 	    $conn = new PDO("sqlsrv:server = tcp:takahata.database.windows.net,1433; Database = takahata", "takahata", "Aaaa1euy");
 	    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -17,7 +17,7 @@ function getUserList{
     	die(print_r($e));
 	}
 
-	// userƒe[ƒuƒ‹‘SŽæ“¾
+	// userãƒ†ãƒ¼ãƒ–ãƒ«å…¨å–å¾—
 	try {
 		$stmt = $pdo->query('SELECT * FROM users');
 	} catch (PDOException $e) {
