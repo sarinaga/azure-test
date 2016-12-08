@@ -6,9 +6,6 @@
  */
 function getUserList(){
 
-	    header('Content-Type: text/plain; charset=UTF-8', true, 500);	
-	    print("Error connecting to SQL Server.");
-
 	// Azure SQL server接続
 	try {
 	    $pdo = new PDO("sqlsrv:server = tcp:takahata.database.windows.net,1433; Database = takahata", "takahata", "Aaaa1euy");
