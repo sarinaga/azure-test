@@ -12,7 +12,7 @@
 <h1>登録済ユーザー一覧</h1>
 <?php
   print_r($stmt);
-  <p>data base data</p>
+  print "<p>data base data</p>\n";
 ?>
 </body>
 </html>
