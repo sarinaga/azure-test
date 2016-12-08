@@ -6,8 +6,6 @@
  */
 function getUserList(){
 
-	return "data";
-
 	// Azure SQL server接続
 	try {
 	    $conn = new PDO("sqlsrv:server = tcp:takahata.database.windows.net,1433; Database = takahata", "takahata", "Aaaa1euy");
