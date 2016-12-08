@@ -9,6 +9,7 @@
   include './list_prog.php';
   $stmt = getUserList();
   print_r($stmt);
+  <p>data base data</p>
 ?>
 </body>
 </html>
