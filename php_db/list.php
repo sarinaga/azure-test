@@ -8,7 +8,7 @@
 <?php
   include './list_prog.php';
   //$stmt = getUserList();
-  //print_r($stmt);
+  print_r($stmt);
 ?>
 </body>
 </html>
